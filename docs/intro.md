@@ -21,8 +21,8 @@ It provides a pre-configured structure, essential tools, and best practices to h
 
 Dive into the following sections to begin your journey:
 
-- [**Framework Documentation**](framework/introduction.md): Explore the core features of the framework and learn how to integrate it into your projects.
-- [**Starter Kit Documentation**](starter-kit/introduction.md): Set up your development environment and start building with the Starter Kit in no time.
+- [**Fire Bites**](bites/introduction.md): A concise guide to get you up and running with the Fire Framework in minutes.
+- [**Comprehensive Guide**](guide/introduction.md): A detailed walkthrough covering all aspects of the framework and Starter Kit for in-depth understanding.
 
 ## Contributing to Fire Project
 
