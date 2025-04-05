@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # 🚀 Quick Start Guide
 
 > **⚠️ Important:** The Fire Framework is currently under development and should not be considered production-ready. Use it for testing and exploration purposes only.
