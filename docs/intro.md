@@ -1,8 +1,8 @@
-# Fire Framework
+---
+sidebar_position: 1
+---
 
-<div align="center">
-    <img src="./public/fire.svg" alt="Fire Framework Logo" width="200">
-</div>
+# Fire Framework
 
 Welcome to the official documentation of the **Fire Project**! 🚀  
 This guide is your go-to resource for understanding, installing, and mastering the **Fire Framework** and its Starter Kit.
