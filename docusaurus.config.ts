@@ -5,8 +5,8 @@ import type * as Preset from "@docusaurus/preset-classic";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: "Fire Project Starter Kit 🚀 ",
-  tagline: "Build PHP applications efficiently",
+  title: "Fire Project",
+  tagline: "it has everything you need to kikstart your project",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -136,7 +136,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} ivanbotty.cloud. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} <a href="https://ivanbotty.cloud/" target="_blank">ivanbotty.cloud</a>. Built with <a href="https://docusaurus.io" target="_blank">Docusaurus</a>.`,
     },
     prism: {
       theme: prismThemes.github,

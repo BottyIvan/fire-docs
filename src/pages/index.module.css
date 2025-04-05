@@ -21,3 +21,8 @@
   align-items: center;
   justify-content: center;
 }
+
+.logo {
+  width: 150px;
+  height: 150px;
+}
