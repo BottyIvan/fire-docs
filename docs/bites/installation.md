@@ -4,9 +4,13 @@ sidebar_position: 2
 
 # 🚀 Quick Start Guide
 
-> **⚠️ Important:** The Fire Framework is currently under development and should not be considered production-ready. Use it for testing and exploration purposes only.
+:::danger Important
+The Fire Framework is currently under development and should not be considered production-ready. Use it for testing and exploration purposes only.
+:::
 
-> **⚠️ Alert:** The Fire Framework is not yet available on Composer. Stay tuned for updates on its availability.
+:::danger Important
+The Fire Framework is not yet available on Composer. Stay tuned for updates on its availability.
+:::
 
 Get started with the Fire Framework by following these simple steps. This guide will help you set up your project, install dependencies, and launch your first application.
 
