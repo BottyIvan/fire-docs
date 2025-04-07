@@ -18,24 +18,24 @@ Because sometimes, less is more. The **Fire Framework** is all about giving you 
 
 Here’s a breakdown of the features you’ll find in the Fire Framework, along with their current development status:
 
-| **Component**           | **Description**                                                     | **Status**     |
-| ----------------------- | ------------------------------------------------------------------- | -------------- |
-| **App**                 | Main class that starts the app and manages flow                     | ✅ Done        |
-| **Router**              | Handles routes (GET, POST, dynamic params, etc.)                    | ✅ Done        |
-| **Middleware**          | System to run checks before controllers                             | ✅ Done        |
-| **Base Controller**     | Base class with methods like `renderView()`, `redirect()`, `json()` | ✅ Done        |
-| **View Engine**         | View handling with layout support and variable injection            | ❌ Not planned |
-| **Base Model**          | Base class for models + DB access via PDO                           | 🛠️ To do       |
-| **Config**              | Centralized configuration (DB, env, errors, etc.)                   | 🤔 Maybe       |
-| **Error Handler**       | Handles errors, exceptions, custom 404/500                          | 🚧 In progress |
-| **Autoloader (PSR-4)**  | PSR-4 compatible autoloader or Composer                             | ✅ Done        |
-| **Session Manager**     | Helper class for cleaner session management                         | 🤔 Maybe       |
-| **Base Auth**           | Login/logout, auth check, current user handling                     | 🤔 Maybe       |
-| **Validator**           | Form input validation class with basic rules                        | 🤔 Maybe       |
-| **Helpers**             | Global helper functions (`url()`, `dd()`, `csrf_token()`, etc.)     | 🚧 In progress |
-| **CSRF Protection**     | CSRF tokens in forms + server-side verification                     | 🤔 Maybe       |
-| **CLI Tool**            | Basic script to generate controllers, models, etc.                  | 🚧 In progress |
-| **.htaccess / Routing** | `.htaccess` file to route all traffic to `index.php`                | ✅ Done        |
+| 🧩 **Component** | 📝 **Description** | 📊 **Status** | 📌 **Note** |
+|---------------------------|------------------------------------------------------------------------|----------------------|-------------------------------------------------------|
+| **App** | Main class that starts the app and manages flow | ✅ **Done** | Entry point; handles router, config, etc. |
+| **Router** | Handles routes (GET, POST, dynamic params, etc.) | ✅ **Done** | Supports dynamic routes and middleware |
+| **Middleware** | System to run checks before controllers | ✅ **Done** | Useful for auth, CSRF, logging, etc. |
+| **Base Controller** | Base class with methods like `renderView()`, `redirect()`, `json()` | ✅ **Done** | To be extended by other controllers |
+| **View Engine** | View handling with layout support and variable injection | ❌ **Not planned** | Includes header/footer; not yet planned |
+| **Base Model** | Base class for models + DB access via PDO | 🚧 **In progress** | Eloquent-style manager in development |
+| **Config** | Centralized configuration (DB, env, errors, etc.) | 🤔 **Maybe** | Accessed via App or helper |
+| **Error Handler** | Handles errors, exceptions, custom 404/500 | 🚧 **In progress** | 404 via router, 500 via try/catch |
+| **Autoloader (PSR-4)** | PSR-4 compatible autoloader or Composer | ✅ **Done** | Follows standard; essential for scalability |
+| **Session Manager** | Helper class for cleaner session management | 🤔 **Maybe** | E.g. `Session::get('user_id')` |
+| **Base Auth** | Login/logout, auth check, current user handling | 🤔 **Maybe** | May use Session internally |
+| **Validator** | Form input validation class with basic rules | 🚧 **In progress** | Rules like `required min:3`, etc. |
+| **Helpers** | Global helper functions (`url()`, `dd()`, `csrf_token()`, etc.) | ✅ **Done** | Includes `dd()`, `url()`, `csrf_token()` |
+| **CSRF Protection** | CSRF tokens in forms + server-side verification | 🤔 **Maybe** | Could be tied to Middleware |
+| **CLI Tool** | Basic script to generate controllers, models, etc. | 🚧 **In progress** | Command system via `RegisterCommands` |
+| **.htaccess / Routing** | `.htaccess` file to route all traffic to `index.php` | ✅ **Done** | Required for pretty URLs |
 
 Stay tuned as we continue to enhance the framework and bring these features to life.
 
