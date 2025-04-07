@@ -31,8 +31,8 @@ Here’s a breakdown of the features you’ll find in the Fire Framework, along 
 | **Autoloader (PSR-4)** | PSR-4 compatible autoloader or Composer | ✅ **Done** | Follows standard; essential for scalability |
 | **Session Manager** | Helper class for cleaner session management | 🤔 **Maybe** | E.g. `Session::get('user_id')` |
 | **Base Auth** | Login/logout, auth check, current user handling | 🤔 **Maybe** | May use Session internally |
-| **Validator** | Form input validation class with basic rules | 🚧 **In progress** | Rules like `required min:3`, etc. |
-| **Helpers** | Global helper functions (`url()`, `dd()`, `csrf_token()`, etc.) | ✅ **Done** | Includes `dd()`, `url()`, `csrf_token()` |
+| **Validator** | Form input validation class with basic rules | 🤔 **Maybe** | Rules like `required min:3`, etc. |
+| **Helpers** | Global helper functions (`url()`, `dd()`, `csrf_token()`, etc.) | 🚧 **In progress** | Includes `dd()`, `url()`, `csrf_token()` |
 | **CSRF Protection** | CSRF tokens in forms + server-side verification | 🤔 **Maybe** | Could be tied to Middleware |
 | **CLI Tool** | Basic script to generate controllers, models, etc. | 🚧 **In progress** | Command system via `RegisterCommands` |
 | **.htaccess / Routing** | `.htaccess` file to route all traffic to `index.php` | ✅ **Done** | Required for pretty URLs |
@@ -44,7 +44,7 @@ Stay tuned as we continue to enhance the framework and bring these features to l
 Check out the following sections to get started:
 
 - [**Fire Bites**](bites/introduction.md): Quick and easy steps to get up and running with Fire.
-- [**Comprehensive Guide**](guide/introduction.md): A deep dive into everything Fire has to offer.
+- [**Comprehensive Guide**](guide/app.md): A deep dive into everything Fire has to offer.
 
 ---
 
