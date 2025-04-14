@@ -83,7 +83,18 @@ This feature is under development.
 
 ---
 
-### 5. **List Available Commands**
+### 5. **Create Migrations**
+
+- **Command**: `php fire migrate::create <name>`
+- **Description**: Creates a new migration file in the migrations directory.
+- **Example**:
+  ```bash
+  php fire migrate::create --name=UsersTable
+  ```
+
+---
+
+### 6. **List Available Commands**
 
 - **Command**: `php fire list`
 - **Description**: Displays a comprehensive list of all available CLI commands, including their descriptions, arguments, and options.
